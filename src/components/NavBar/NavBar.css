@@ -14,7 +14,8 @@
 }
 
 .brand-logo img {
-    width: 150px;
+    width: 170px;
+    height: auto;
 }
 
 .search-bar {
@@ -66,14 +67,14 @@ input:hover {
 }
 
 .right-nav {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-primary);
     position: fixed;
     right: 0;
-    top:14vh;
+    top:12vh;
     height: 100vh;
     width: 90vw;
+    padding-top: 1.5rem;
     transition: 0.3s ease-in-out;
-
 }
 
 .right-nav ul {
@@ -97,7 +98,8 @@ input:hover {
 
 .right-nav ul li a .mobile-menu {
     color: var(--color-highlight);
-    margin-left: 10px;
+    margin-left: 12px;
+    font-weight: 600;
 }
 .hide-right-nav{
     right: -100vw;
@@ -105,7 +107,7 @@ input:hover {
 }
 .login-btn {
     width: 40%;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
 i.fa-xmark,
@@ -150,6 +152,7 @@ i.fa-bars {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-top: 0;
     }
 
     .right-nav ul {
@@ -176,7 +179,6 @@ i.fa-bars {
     .search-icon{
         left: 25%;
     }
-
     .right-nav ul{
         gap: 30px;
     }
