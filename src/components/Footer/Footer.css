@@ -1,0 +1,68 @@
+.footer-section{
+    display: flex;
+    background-color:var(--color-primary);
+    color:var(--color-highlight) ;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+.footer-section h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+a{
+    color: white;
+    margin-right: 0.5rem;
+}
+i.fa-brands.fa-github, i.fa-brands.fa-twitter, i.fa-brands.fa-linkedin{
+    font-size: 1.7rem;
+    margin-right: 1.3rem;
+    color: var(--color-highlight);
+}
+
+.right-sec a{
+    text-decoration: none;
+    color: var(--color-highlight);
+    transition: 0.3s ease-in-out all;
+}
+.right-sec a:hover{
+    text-decoration: underline;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+@media only screen and (min-width:768px){
+    .footer-section{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+      .footer-section h1{
+        margin-bottom: 0;
+      }
+
+      .right-sec a{
+        display:block;
+        margin: 5px 0px;
+      }
+}
+@media only screen and (min-width:1024px){
+  .footer-section{
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25vh;
+  }
+  .left-sec div, .middle-sec p, .right-sec div{
+    margin-top: 1rem;
+  }
+
+  .right-sec a{
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+  }
+}

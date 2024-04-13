@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    position: sticky;
+    z-index: 1;
 }
 
 .left-nav {
@@ -117,10 +119,6 @@ i.fa-bars {
 }
 
 @media only screen and (min-width:768px) {
-    .nav-bar {
-        padding: 10px 0px;
-    }
-
     .left-nav {
         width: 60%;
     }
@@ -138,7 +136,7 @@ i.fa-bars {
     }
 
     .search-icon {
-        left: 22%;
+        left: 23%;
         position: absolute;
         font-size: var(--text-xl);
     }
@@ -177,7 +175,7 @@ i.fa-bars {
         width: 165px;
     }
     .search-icon{
-        left: 25%;
+        left: 26%;
     }
     .right-nav ul{
         gap: 30px;
