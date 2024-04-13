@@ -34,7 +34,7 @@ function NavBar() {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/wishlist">
+              <NavLink to="/wishlists">
                 <i className="fa-solid fa-heart"></i>
                 <span className="mobile-menu">Wishlist</span>
               </NavLink>

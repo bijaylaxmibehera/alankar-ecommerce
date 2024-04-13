@@ -1,11 +1,10 @@
-import Mockman from "mockman-js";
 import "./App.css";
-import NavBar from "./components/NavBar/NavBar";
+import { RouterProvider } from "react-router-dom";
+import router from "./components/RouteDetails";
 function App() {
   return (
     <div className="App">
-      {/* <Mockman/> */}
-      <NavBar/>
+      <RouterProvider router={router}/>
     </div>
   );
 }
