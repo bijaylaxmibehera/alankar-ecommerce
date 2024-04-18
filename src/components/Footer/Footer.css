@@ -3,10 +3,9 @@
     background-color:var(--color-primary);
     color:var(--color-highlight) ;
     flex-direction: column;
-    padding: 2rem;
+    padding: 0.6rem 2rem;
     width: 100vw;
-    position: fixed;
-    bottom: 0;
+    margin-top: 1rem;
 }
 .footer-section h1{
     font-weight: 400;
